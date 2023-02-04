@@ -5,15 +5,15 @@ public class PercentageOfStudent {
         System.out.println("Taking Input from the Student.");
         Scanner s= new Scanner(System.in);
         System.out.println("Enter Subject 1 Number :");
-        int a= s.nextInt();
+        float a= s.nextInt();
         System.out.println("Enter Subject 2 Number : ");
-        int b= s.nextInt();
+        float b= s.nextInt();
         System.out.println("Enter Subject 3 Number :");
-        int c= s.nextInt();
+        float c= s.nextInt();
         System.out.println("Enter Subject 4 Number : ");
-        int d= s.nextInt();
+        float d= s.nextInt();
         System.out.println("Enter Subject 5 Number :");
-        int e= s.nextInt();
+        float e= s.nextInt();
         float avg=(a+b+c+d+e)/5;
 
         System.out.print(avg);
