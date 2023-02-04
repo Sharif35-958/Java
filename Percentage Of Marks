@@ -16,10 +16,7 @@ public class PercentageOfStudent {
         float e= s.nextInt();
         float avg=(a+b+c+d+e)/5;
 
-        System.out.print(avg);
-        System.out.println("%");
-
-
-
+        System.out.print(avg+"%");
+   
     }
 }
