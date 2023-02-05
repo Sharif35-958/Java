@@ -11,7 +11,7 @@ public class Strings {
         int a=8;
         float b=7.443f;
         System.out.println("The value of a is "+a+ " and the value of b is "+b);
+        System.out.printf("The value of a is %d and the value of b is %10.2f\n",a,b);
         System.out.format("The value of a is "+a+ " and the value of b is "+b);
-        //System.out.printf("The value of a is %d and the value of b is %f",a,b);
     }
 }
